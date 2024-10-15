@@ -177,7 +177,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Meta/MetaDisplayRefreshRate.unity
     guid: 07970a1a9455f4309b8e99b1c88daa98
   - enabled: 1
-    path: Assets/Hampus/Hampus_Scenes/Uppakra_Scene.unity
+    path: Assets/Hampus_Assets/Hampus_Scenes/Uppakra_Scene.unity
     guid: af3c824110df24a4694690fa525209f2
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c52d3bb36b4c86f47af54ab9c7a02589,

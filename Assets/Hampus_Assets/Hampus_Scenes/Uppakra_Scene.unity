@@ -495,6 +495,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7957942351869948125, guid: 8f2c1ffdafd49a943ac79dc0ff480220,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1557103660}
+    - targetCorrespondingSourceObject: {fileID: 7957942351869948125, guid: 8f2c1ffdafd49a943ac79dc0ff480220,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1557103655}
   m_SourcePrefab: {fileID: 100100000, guid: 8f2c1ffdafd49a943ac79dc0ff480220, type: 3}
 --- !u!1 &1557103652 stripped
@@ -518,8 +522,23 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: a7b5131dddc01e74da362724ceba491e,
     type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 2310253080149869749, guid: 7620f62e573148d44bd784d157522a10,
+  m_TrackedImagePrefab: {fileID: 8959089615197351052, guid: bcbf21b8c4a132a4ca521aba1d4e6d4f,
     type: 3}
+--- !u!114 &1557103660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557103652}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 1585201990951412, guid: d16dd8da7e4ccbe42b1b4a344a72ecbb,
+    type: 3}
+  m_DetectionMode: -1
 --- !u!1 &2017973560
 GameObject:
   m_ObjectHideFlags: 0

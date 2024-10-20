@@ -1899,6 +1899,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ARF XR Origin Set Up
       objectReference: {fileID: 0}
+    - target: {fileID: 7637194992220565852, guid: 8f2c1ffdafd49a943ac79dc0ff480220,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8766024634595469703, guid: 8f2c1ffdafd49a943ac79dc0ff480220,
         type: 3}
       propertyPath: field of view
@@ -2012,7 +2017,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: beee67805d85e344abb14a3f1eccfde0, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2116,6 +2121,8 @@ MonoBehaviour:
   canvas1: {fileID: 256453}
   canvas2: {fileID: 1346020233}
   audioSource: {fileID: 1557103670}
+  audioClip1: {fileID: 8300000, guid: 4b6b0a480d0b02b44abf7a045ec58340, type: 3}
+  audioClip2: {fileID: 8300000, guid: beee67805d85e344abb14a3f1eccfde0, type: 3}
 --- !u!114 &1557103672
 MonoBehaviour:
   m_ObjectHideFlags: 0

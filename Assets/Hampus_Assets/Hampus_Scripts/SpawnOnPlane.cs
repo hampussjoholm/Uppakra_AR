@@ -18,6 +18,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
         public GameObject canvas1;
         public GameObject canvas2;
         public AudioSource audioSource; // Reference to the AudioSource that will play the sound
+        public AudioClip audioClip1; // Reference to the AudioSource that will play the sound
+        public AudioClip audioClip2; // Reference to the AudioSource that will play the sound
 
         public GameObject prefabToPlace
         {
@@ -41,6 +43,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
             if (m_RaycastHitEvent != null)
                 m_RaycastHitEvent.eventRaised += PlaceObjectAt;
+
+            PlaySound(audioClip1); //starts playing the first audio
         }
 
         void OnDisable()
@@ -60,7 +64,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
                 HideCanvas(canvas1);
                 ShowCanvas(canvas2);
-                PlaySound();
+                StopSound();
+                PlaySound(audioClip2);
             }
         }
 
@@ -81,12 +86,20 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 canvas.SetActive(false);
             }
         }
-        private void PlaySound()
+        private void PlaySound(AudioClip audioClip)
         {
             // Play the sound from the AudioSource
             if (!audioSource.isPlaying) // Avoid overlapping sounds
             {
-                audioSource.Play();
+                audioSource.PlayOneShot(audioClip);
+            }
+        }
+        private void StopSound()
+        {
+            // Play the sound from the AudioSource
+            if (audioSource.isPlaying) // Avoid overlapping sounds
+            {
+                audioSource.Stop();
             }
         }
     }

@@ -179,6 +179,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Hampus_Assets/Hampus_Scenes/Uppakra_Scene.unity
     guid: af3c824110df24a4694690fa525209f2
+  - enabled: 0
+    path: Assets/Hampus_Assets/Hampus_Scenes/Start_Scene.unity
+    guid: 8946215bc10aff74da6f3b9c584b42bf
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c52d3bb36b4c86f47af54ab9c7a02589,
       type: 2}

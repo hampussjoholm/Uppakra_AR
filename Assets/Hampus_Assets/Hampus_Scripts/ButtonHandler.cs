@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class CanvasSetInactive : MonoBehaviour { 
+public class ButtonHandler : MonoBehaviour { 
 
    public GameObject startCanvas;
-   public void SetInactive()
+   public void inactivateStartCanvas()
     {
         startCanvas.SetActive(false);
     }
